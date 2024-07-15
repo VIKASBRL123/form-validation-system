@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>form validation system</title>
+</head>
+<body>
+    
+    <div class="modal-wrap">
+        <div class="modal-header"><span class="is-active"></span><span></span><span></span></div>
+        <div class="modal-bodies">
+            <div class="modal-body modal-body-step-1 is-showing">
+                <div class="title">Step 1</div>
+                <div class="description">Hello there, Let's play a game.</div>
+                <form>
+                    <input type="text" placeholder="Name"id="n1" />
+                    <input type="email" placeholder="Email" id="n2"/>
+                    <input type="text" placeholder="Contact No" id="n3"/>
+                    <div class="text-center">
+                        <div class="button">Start</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body modal-body-step-2">
+                <div class="title">Step 2</div>
+                <div class="description">Chose your age</div>
+                <form>
+                    <label>
+                        <input type="radio" name="radio" />you are under twenty five years.
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" id="radio2" />you are above twenty five years.
+                    </label>
+                    <div class="text-center fade-in">
+                        <div class="button">Next</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body modal-body-step-3">
+                <div class="title">Step 3</div>
+                <div class="description">Check your email for submission the form.</div>
+                <div class="text-center">
+                    <div class="button">Submit!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <b>YOUR FORM HAS BEEN SUBMITED SUCCESSFULLY</b><br>
+        ENTER THE DETAIL OF NEXT FORM FOR RERUN.... <br>
+    
+        <div class="rerun-button">ReRun</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
